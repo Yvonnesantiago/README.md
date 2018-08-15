@@ -1,0 +1,265 @@
+#include <iostream>
+using namespace std;
+int main ()
+{
+
+	string A,B;
+	double C,D;
+	string Again = "yes";
+	while (Again=="yes"||Again=="Yes"||Again=="YES")
+	{
+	
+	cout << " \t\t Mass Converter \n\n\n";
+	cout << " \n Unit of mass: \n";
+	cout << " Ton (t) \n Kilogram (kg) \n Pound (lb) \n";
+	cout << " Gram (g) \n Ounce (oz) \n\n";
+	
+	cout << " Choose the mass you want to convert:";
+	cin  >> A;
+	cout << " \n Enter Amout of Mass:";
+	cin  >> C;
+	
+	cout << " \n TO \n\n";
+	
+	if (A=="Ton"||A=="ton"||A=="t")
+	{
+		
+	cout << " Unit of mass: \n";
+	cout << " Ton (t) \n Kilogram (kg) \n Pound (lb) \n";
+	cout << " Gram (g) \n Ounce (oz) \n\n";
+	
+	cout << " the mass you want to convert:";
+	cin  >> B;
+ cout << "\n";
+	
+		if (B=="Ton"||B=="ton"||B=="t")
+		{
+			
+			D=(C*1);
+			cout << " The answer is:" << D << B ;
+		}
+		else if(B=="Kilogram"||B=="kilogram"||B=="kg")
+		{
+			
+			D=(C*1000);
+			cout << " the answer is:" << D << B ;
+		}
+		else if(B=="Pound"||B=="pound"||B=="lb")
+		{
+			
+			D=(C*2204.622);
+			cout << " the answer is:" << D << B ;
+		}
+		else if(B=="Gram"||B=="gram"||B=="g")
+		{
+			
+			D=(C*1000000);
+			cout << " the answer is:" << D << B ;
+		}
+		else if(B=="Ounce"||B=="ounce"||B=="oz")
+		{
+			
+			D=(C*35273.96);
+			cout << " the answer is:" << D << B ;
+		}
+		else
+		{
+			cout << " Invalid!!!";
+		}
+	}
+	else if (A=="Kilogram"||A=="kilogram"||A=="kg")
+	{
+		
+	cout << " Unit of mass: \n";
+	cout << " Ton (t) \n Kilogram (kg) \n Pound (lb) \n";
+	cout << " Gram (g) \n Ounce (oz) \n\n";
+	
+	cout << " the mass you want to convert:";
+	cin  >> B;
+	
+		if (B=="Ton"||B=="ton"||B=="t")
+		{
+			
+			D=(C*.0011023);
+			cout << " the answer is:" << D << B ;
+		}
+		else if(B=="Kilogram"||B=="kilogram"||B=="kg")
+		{
+			
+			D=(C*1);
+			cout << " the answer is:" << D << B ;
+		}
+		else if(B=="Pound"||B=="pound"||B=="lb")
+		{
+			
+			D=(C*2.2046);
+			cout << " the answer is:" << D << B ;
+		}
+		else if(B=="Gram"||B=="gram"||B=="g")
+		{
+			
+			D=(C*1000);
+			cout << " the answer is:" << D << B ;
+		}
+		else if(B=="Ounce"||B=="ounce"||B=="oz")
+		{
+			
+			D=(C*35.274);
+			cout << " the answer is:" << D << B ;
+		}
+		else
+		{
+			cout << " Invalid!!!";
+		}
+		
+	}
+	
+	else if (A=="Pound"||A=="pound"||A=="lb")
+	{
+		
+	cout << " Unit of mass: \n";
+	cout << " Ton (t) \n Kilogram (kg) \n Pound (lb) \n";
+	cout << " Gram (g) \n Ounce (oz) \n\n";
+	
+	cout << " the mass you want to convert:";
+	cin  >> B;
+	
+		if (B=="Ton"||B=="ton"||B=="t")
+		{
+			
+			D=(C*0.0005);
+			cout << " the answer is:" << D << B ;
+		}
+		else if(B=="Kilogram"||B=="kilogram"||B=="kg")
+		{
+			
+			D=(C*0.4536);
+			cout << " the answer is:" << D << B ;
+		}
+		else if(B=="Pound"||B=="pound"||B=="lb")
+		{
+			
+			D=(C*1);
+			cout << " the answer is:" << D << B ;
+		}
+		else if(B=="Gram"||B=="gram"||B=="g")
+		{
+			
+			D=(C*453.592);
+			cout << " the answer is:" << D << B ;
+		}
+		else if(B=="Ounce"||B=="ounce"||B=="oz")
+		{
+			
+			D=(C*16);
+			cout << " the answer is:" << D << B ;
+		}
+		else
+		{
+			cout << " Invalid!!!";
+		}
+	}
+	
+	else if (A=="Gram"||A=="gram"||A=="g")
+	{
+		
+	cout << " Unit of mass: \n";
+	cout << " Ton (t) \n Kilogram (kg) \n Pound (lb) \n";
+	cout << " Gram (g) \n Ounce (oz) \n\n";
+	
+	cout << " the mass you want to convert:";
+	cin  >> B;
+	
+		if (B=="Ton"||B=="ton"||B=="t")
+		{
+			
+			D=(C*0.0000011023);
+			cout << " the answer is:" << D << B ;
+		}
+		else if(B=="Kilogram"||B=="kilogram"||B=="kg")
+		{
+			
+			D=(C*.001);
+			cout << " the answer is:" << D << B ;
+		}
+		else if(B=="Pound"||B=="pound"||B=="lb")
+		{
+			
+			D=(C*0.002204);
+			cout << " the answer is:" << D << B ;
+		}
+		else if(B=="Gram"||B=="gram"||B=="g")
+		{
+			
+			D=(C*1);
+			cout << " the answer is:" << D << B ;
+		}
+		else if(B=="Ounce"||B=="ounce"||B=="oz")
+		{
+			
+			D=(C*0.3527);
+			cout << " the answer is:" << D << B ;
+		}
+		else
+		{
+			cout << " Invalid!!!";
+		}
+	}
+	
+ else if (A=="Ounce"||A=="ounce"||A=="oz")
+	{
+		
+	cout << " Unit of mass: \n";
+	cout << " Ton (t) \n Kilogram (kg) \n Pound (lb) \n";
+	cout << " Gram (g) \n Ounce (oz) \n\n";
+	
+	cout << " the mass you want to convert:";
+	cin  >> B;
+	
+		if (B=="Ton"||B=="ton"||B=="t")
+		{
+			
+			D=(C*0.00003125);
+			cout << " the answer is:" << D << B ;
+		}
+		else if(B=="Kilogram"||B=="kilogram"||B=="kg")
+		{
+			
+			D=(C*0.0283);
+			cout << " the answer is:" << D << B ;
+		}
+		else if(B=="Pound"||B=="pound"||B=="lb")
+		{
+			
+			D=(C*0.625);
+			cout << " the answer is:" << D << B ;
+		}
+		else if(B=="Gram"||B=="gram"||B=="g")
+		{
+			
+			D=(C*28.35);
+			cout << " the answer is:" << D << B ;
+		}
+		else if(B=="Ounce"||B=="ounce"||B=="oz")
+		{
+			
+			D=(C*1);
+			cout << " the answer is:" << D << B ;
+		}
+		else
+		{
+			cout << " Invalid!!!";
+		}
+	}
+	else
+		{
+			cout << " Invalid!!!";
+		}
+	cout << " \n\n\n Do you want to try it again? (yes/no):";
+	cin  >> Again;
+	
+		}
+	
+    
+return 0;	
+}
