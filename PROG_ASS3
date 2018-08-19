@@ -1,3 +1,13 @@
+/*
+AUTHOR: Yvonne B. Santiago
+DATE:August 13, 2018
+NAME: Mass Conversion
+DESCRIPTION: This program calculates a mass conversion
+RETURNS:
+NOTES:
+CHANGE HISTORY:
+*/
+
 #include <iostream>
 using namespace std;
 int main ()
